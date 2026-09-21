@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #eef2f7;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+#buscador {
+    padding: 8px;
+    width: 220px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+}
+
+#buscador:focus {
+    border-color: #4a90d9;
+}
+
+#btnBuscar {
+    padding: 8px 16px;
+    margin-left: 8px;
+    background-color: #4a90d9;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#btnBuscar:hover {
+    background-color: #357ab8;
+}
+
+#productos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+
+#productos div {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s;
+}
+
+#productos div:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+#productos h2 {
+    color: #2c3e50;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+#productos p {
+    color: #555;
+    margin: 3px 0;
+}
+
+#productos img {
+    max-width: 100%;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 8px;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "TICS-ACT4-BIM4-LABORATORIO4",
+  "version": "1.0.0",
+  "description": "PROYECTO PARA EL LABORATORIO 4 DE TICS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "author": "CARLOS EMILIO BARAHONA PASÁN",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.5.1",
+      "onFail": "download"
+    }
+  },
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.11.0",
+    "globals": "^17.12.0",
+    "husky": "^9.1.7"
+  }
+}
